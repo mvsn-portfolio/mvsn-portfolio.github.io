@@ -9,7 +9,7 @@
       html, body {
       min-height: 100%;
       }
-      body, div, form, input, select, p { 
+      body, div, form, input, select,textarea, p { 
       padding: 0;
       margin: 0;
       outline: none;
@@ -58,7 +58,7 @@
       display: flex;
       flex-direction: column;
       }
-      textarea,input, select {
+      input, select {
       padding: 5px;
       margin-bottom: 30px;
       background: transparent;
@@ -70,6 +70,14 @@
       }
       textarea::placeholder {
       color: #eee;
+      }
+      textarea {
+      padding: 5px;
+      margin-bottom: 30px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #eee;
+      border-top: 1px solid #eee;
       }
       option:focus {
       border: none;
@@ -128,7 +136,7 @@
     <div class="main-block">
       <div class="left-part">
         <i class="fas fa-graduation-cap"></i>
-        <h1>Register to our courses</h1>
+        <h1>Any Colour You Like</h1>
         <p>W3docs provides free learning materials for programming languages like HTML, CSS, Java Script, PHP etc.</p>
         <div class="btn-group">
           <a class="btn-item" href="https://www.w3docs.com/learn-html.html">Learn HTML</a>
