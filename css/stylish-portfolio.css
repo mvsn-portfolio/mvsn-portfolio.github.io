@@ -93,8 +93,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background:url("../img/bg-masthead.png");
   opacity: 0.1;
+  background-image:url("../img/bg-masthead.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
